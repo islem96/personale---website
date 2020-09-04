@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+  *
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: rgb(240, 96, 96);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(252, 97, 97);
+  }
+  a {
+    text-decoration: none;
+  }
+    /* Style the logo */
+
+  .logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 26px;
+    margin-top: 12px;
+    color: #f7f7f7;
+
+  }
+
+    /* Style the login button */
+
+  .login-button {
+    text-align: center;
+    padding-top:11px;
+    width: 90px;
+    height:50px;
+    margin-right: 25px;
+    margin-top: 6px;
+    border: 1px solid white; 
+    border-radius: 5%; 
+    font-size: 20px;
+    color: white;
+    background-color: rgb(252,97,97,0.88);
+  }
+  
+  .login-button:hover
+  {
+    background-color:white;
+    color:black ;
+  
+  }
+
+  @media screen and (max-width: 600px) {
+    .login-button{
+      font-size: 14px;
+      padding-top:15px;
+
+    }
+    .logo
+    {
+      font-size: 20px;
+    }
+  }
+
+  
+  
+  
+  /* Form*/
+
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  button {
+    background-color: rgb(252, 97, 97);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+   /* Style the footer */
+   .footer {
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer a {
+    padding-top:10px ;
+    font-family: "apple";
+    color:#0f0b2b;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .footer a:hover 
+  {
+    text-decoration: underline;
+    color:#077bff;
+  }
+  a{
+    font-size: 20px;
+    padding-right: 4px;
+  }
+  

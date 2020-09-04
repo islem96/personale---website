@@ -1,0 +1,182 @@
+*{
+   box-sizing: border-box;
+}
+
+*
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+    body {
+         font-family: Arial, Helvetica, sans-serif;
+    }    
+  
+  
+  /* Style the header */
+  .header {
+    background-color: rgb(240, 96, 96);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(252, 97, 97);
+  }
+  a {
+    text-decoration: none;
+  }
+    /* Style the logo */
+
+  .logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 26px;
+    margin-top: 18px;
+    color: #f7f7f7;
+
+  }
+
+    /* Style the login button */
+
+  .login-button {
+    text-align: center;
+    padding-top:10px;
+    width: 90px;
+    height:50px;
+    margin-right: 25px;
+    margin-top: 15px;
+    border: 1px solid white; 
+    border-radius: 5%; 
+    font-size: 20px;
+    color: white;
+    background-color: rgb(252,97,97,0.88);
+  }
+  
+  .login-button:hover
+  {
+    background-color:white;
+    color:black ;
+  
+  }
+
+  @media screen and (max-width: 600px) {
+    .login-button{
+      font-size: 14px;
+      padding-top:15px;
+
+    }
+    .logo
+    {
+      font-size: 20px;
+    }
+  }
+
+
+  
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:  rgb(240, 96, 96);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+img.avatar {
+width:150px ;
+height: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 24px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Style the footer */
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer a {
+    padding-top:10px ;
+    font-family: "apple";
+    color:#0f0b2b;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .footer a:hover 
+  {
+    text-decoration: underline;
+    color:#077bff;
+  }
+  a{
+    font-size: 20px;
+  }
+  i{
+      margin-right: 4px;
+  }

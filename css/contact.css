@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+  *
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: rgb(240, 96, 96);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(252, 97, 97);
+  }
+  a {
+    text-decoration: none;
+  }
+    /* Style the logo */
+
+  .logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 26px;
+    margin-top: 12px;
+    color: #f7f7f7;
+
+  }
+
+  /* Style the login button */
+
+  .login-button {
+    text-align: center;
+    padding-top:11px;
+    width: 90px;
+    height:50px;
+    margin-right: 25px;
+    margin-top: 6px;
+    border: 1px solid white; 
+    border-radius: 5%; 
+    font-size: 20px;
+    color: white;
+    background-color: rgb(252,97,97,0.88);
+  }
+  
+  .login-button:hover
+  {
+    background-color:white;
+    color:black ;
+  
+  }
+
+  @media screen and (max-width: 600px) {
+    .login-button{
+      font-size: 14px;
+      padding-top:15px;
+
+    }
+    .logo
+    {
+      font-size: 20px;
+    }
+  }
+
+
+      /* Style the Form  */
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: rgba(252, 103, 103, 0.88);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: rgb(252,97,97,0.88);
+      }
+      
+      .container {
+        overflow: scroll;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 18px;
+      }
+
+      /* Style the footer */
+   .footer {
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer a {
+    padding-top:10px ;
+    font-family: "apple";
+    color:#0f0b2b;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .footer a:hover 
+  {
+    text-decoration: underline;
+    color:#077bff;
+  }
+  a{
+    font-size: 20px;
+    padding-right: 4px;
+  }
+  i{
+      margin-right: 4px;;
+  }
